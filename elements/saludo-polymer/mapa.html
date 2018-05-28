@@ -1,0 +1,30 @@
+<link rel="import" href="bower_components/google-map/google-map.html">
+
+
+<dom-module id="mi-mapa">
+  <template>
+    <style>
+      google-map {
+          height: 200px;
+      }
+
+    </style>
+    <div>
+        <h2>Mi Ubicación</h2>
+        <google-map latitude="40.4" longitude="-3.7" zoom=11>
+            <google-map-marker latitude="40.421432" longitude="-3.7536663" title="Casa de Davis :)"></google-map-marker>
+        </google-map>
+    </div>
+  </template>
+
+ <script>
+  class Mapa extends Polymer.Element {
+    static get is() { return 'mi-mapa'; }
+    static get properties() {
+      return {
+      };
+    }
+  }
+  window.customElements.define(Mapa.is, Mapa);
+  </script>
+</dom-module>

@@ -1,0 +1,21 @@
+{
+  "name": "polymer",
+  "description": "proyecto polymer",
+  "main": "polymer",
+  "authors": [
+    "dlb"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.6.0"
+  }
+}
